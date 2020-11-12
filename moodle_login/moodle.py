@@ -22,7 +22,7 @@ username = login.readline()
 password = login.readline()
 
 #Open moodle and position the window on the left half
-driver = webdriver.Chrome("./chromedriver")
+driver = webdriver.Chrome("../chromedriver")
 driver.get(moodle_url)
 driver.set_window_position(-5,0)
 driver.set_window_size(width/2, height)
